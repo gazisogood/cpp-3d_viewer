@@ -1,10 +1,4 @@
-# 3DViewer v2.0
-
-Implementation of 3DViewer v2.0
-
-The russian version of the task can be found in the repository.
-
-
+# 3DViewer
 ## Contents
 
 1. [Chapter I](#chapter-i) \
@@ -12,14 +6,9 @@ The russian version of the task can be found in the repository.
 2. [Chapter II](#chapter-ii) \
    2.1. [Information](#information)
 3. [Chapter III](#chapter-iii) \
-   3.1. [Part 1](#part-1-3dviewer-v20) \
-   3.2. [Part 2](#part-2-bonus-settings) \
-   3.3. [Part 3](#part-3-bonus-record)
-
+   3.1. [Part 1](#part-1-3dviewer-v20)
 
 ## Chapter I
-
-![3dviewer2.0](misc/images/3dviewer2.0.PNG)
 
 Somewhere near a coffee machine in the 90s:
 
@@ -101,19 +90,3 @@ Develop a program to visualise the 3D wireframe models.
 - There should be at least three different design patterns (e.g. facade, strategy and command);
 - Classes must be implemented within the `s21` namespace;
 - To perform affine transformations, you can use the matrices from the library of the previous s21_matrix+ project.
-
-*Note:* **Don't upload heavy files (>10 mb) to git.**
-
-## Part 2. Bonus. Settings
-
-- The program must allow customizing the type of projection (parallel and central);
-- The program must allow setting up the type (solid, dashed), color and thickness of the edges, display method (none, circle, square), color and size of the vertices;
-- The program must allow choosing the background color;
-- Settings must be saved between program restarts.
-
-## Part 3. Bonus. Record
-
-- The program must allow saving the captured (rendered) images as bmp and jpeg files;
-- The program must allow recording small screencasts - the current custom affine transformation of the loaded object into gif-animation (640x480, 10fps, 5s) by a special button.
-
-💡 [Tap here](https://forms.yandex.ru/cloud/64181b3c69387223f9a12877/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
